@@ -1,8 +1,3 @@
-var el_up = document.getElementById("UBGenC_UP");
-var el_down = document.getElementById("UBGenC_DOWN");
-el_up.innerHTML = "Click on the button to disable right click";
-			
-			
 function UBGenC_Run() {
 	document.addEventListener('contextmenu',
 			event => event.preventDefault());
